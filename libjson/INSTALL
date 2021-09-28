@@ -9,11 +9,11 @@ Basic Installation
 
 
 # aclocal
-# automake --add-missing --foreign
-# autoconf 
+# autoreconf --install -v
 
 -- I think you will get "configure"
 
 # ./configure --prefix=
 # make 
+
 
