@@ -1,5 +1,7 @@
 
-<!-- Print -->
+## Print 
+
+  ```sh
 
 # ./json_main 
 [JSON] 
@@ -142,9 +144,11 @@ Succeeded 0
 Succeeded 0
 [JSON] 
 
+  ```
 
-<!-- Browsing -->
+## Browsing
 
+  ```sh
 [JSON] tree 0 
 	P 0     0    <BLK  > BLK0                                                      0   <                    > <SMT0                > <                    >
 	P 0     0    <STMT > SMT0                                                      0   <firstName           > <SMT1                > <BLK0                >
@@ -401,9 +405,11 @@ Succeeded 0
 
 [JSON] 
 
+  ```
 
-<!-- Subtree Copy -->
+## Subtree Copy 
 
+  ```sh
 # ./json_main 
 [JSON] load test/1.json
 Succeeded 0
@@ -684,8 +690,11 @@ Succeeded 1
 Succeeded 1
 [JSON] 
 
+  ```
 
-<!-- Subtree Deletion -->
+## Subtree Deletion
+
+  ```sh
 
 # ./json_main 
 [JSON] load test/1.json
@@ -952,4 +961,5 @@ Succeeded 0
 Succeeded 0
 [JSON] 
 
+  ```
 
